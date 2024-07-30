@@ -1,0 +1,178 @@
+{
+  "users": [
+    {
+      "id": "1111",
+      "name": "John",
+      "email": "john.doe@email.com",
+      "password": "johndoe123"
+    },
+    {
+      "id": "2222",
+      "name": "Jan",
+      "email": "jan.kowalski@email.com",
+      "password": "JanekKowalski987"
+    }
+  ],
+  "calculations": [
+    {
+      "id": "aaaa",
+      "amount": 10000,
+      "term": 12,
+      "rate": 5,
+      "payment": 856.07,
+      "userId": "1111"
+    },
+    {
+      "id": "zzzz",
+      "amount": 10000,
+      "term": 12,
+      "rate": 5,
+      "payment": 856.07,
+      "userId": "1111"
+    },
+    {
+      "id": "bbbb",
+      "amount": 20000,
+      "term": 24,
+      "rate": 4,
+      "payment": 868.86,
+      "userId": "1111"
+    },
+    {
+      "id": "cccc",
+      "amount": 15000,
+      "term": 36,
+      "rate": 6,
+      "payment": 457.87,
+      "userId": "1111"
+    },
+    {
+      "id": "dddd",
+      "amount": 5000,
+      "term": 6,
+      "rate": 3,
+      "payment": 858.75,
+      "userId": "2222"
+    },
+    {
+      "id": "eeee",
+      "amount": 30000,
+      "term": 48,
+      "rate": 5,
+      "payment": 691.48,
+      "userId": "2222"
+    },
+    {
+      "id": "ffff",
+      "amount": 25000,
+      "term": 60,
+      "rate": 4.5,
+      "payment": 466.24,
+      "userId": "2222"
+    },
+    {
+      "id": "3750",
+      "amount": 123213,
+      "payment": 11257.27,
+      "rate": 1,
+      "term": 11,
+      "userId": "1111"
+    },
+    {
+      "id": "ebb2",
+      "amount": 123124,
+      "payment": 11583.05,
+      "rate": 23,
+      "term": 12,
+      "userId": "1111"
+    },
+    {
+      "id": "1612",
+      "amount": 123412,
+      "payment": 3612.92,
+      "rate": 34,
+      "term": 123,
+      "userId": "1111"
+    },
+    {
+      "id": "1b2b",
+      "amount": 123,
+      "payment": -9.37,
+      "rate": 2,
+      "term": -13,
+      "userId": "1111"
+    },
+    {
+      "id": "84d8",
+      "amount": -12000,
+      "payment": -1016.32,
+      "rate": 3,
+      "term": 12,
+      "userId": "1111"
+    },
+    {
+      "id": "34ba",
+      "amount": 12333,
+      "payment": 1050.15,
+      "rate": 4,
+      "term": 12,
+      "userId": "1111"
+    },
+    {
+      "id": "ed42",
+      "amount": 120000,
+      "payment": 10494.18,
+      "rate": 9,
+      "term": 12,
+      "userId": "1111"
+    },
+    {
+      "id": "4e33",
+      "amount": 123333,
+      "payment": 6540.44,
+      "rate": 12,
+      "term": 21,
+      "userId": "1111"
+    },
+    {
+      "id": "8cbf",
+      "amount": 12341,
+      "payment": -924.46,
+      "rate": 23,
+      "term": -12,
+      "userId": "1111"
+    },
+    {
+      "id": "c876",
+      "amount": -1232,
+      "payment": -104.34,
+      "rate": 3,
+      "term": 12,
+      "userId": "1111"
+    },
+    {
+      "id": "55b7",
+      "amount": 12324,
+      "payment": 1032.57,
+      "rate": 1,
+      "term": 12,
+      "userId": "1111"
+    },
+    {
+      "id": "71fd",
+      "amount": -22,
+      "payment": -572.65,
+      "rate": 312341234,
+      "term": 3,
+      "userId": "1111"
+    },
+    {
+      "id": "fb9d",
+      "amount": -123123,
+      "payment": 30589.04,
+      "rate": 5,
+      "term": -4,
+      "userId": "1111"
+    }
+  ]
+}
