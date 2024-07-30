@@ -19,7 +19,7 @@ To run the application, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone = TODO
+    git clone = https://github.com/Paveu99/react-app
     cd react-app
     ```
 
@@ -171,4 +171,21 @@ export const usePostCalculationMutation = (userId: string | null) => {
 
 # Tech stack
 Application was created using:
+**Dev dependencies**:
+- @types/react: ^18.3.3,
+- @types/react-dom": ^18.3.0,
+- @typescript-eslint/eslint-plugin: ^7.15.0,
+- @typescript-eslint/parser: ^7.15.0,
+- @vitejs/plugin-react-swc: ^3.5.0,
+- eslint: ^8.57.0,
+- eslint-plugin-react-hooks": ^4.6.2,
+- eslint-plugin-react-refresh": ^0.4.7,
+- typescript": ^5.2.2,
+- vite: ^5.3.4.
 
+**Dependencies**:
+- @tanstack/react-query: ^5.51.11,
+- json-server: ^1.0.0-beta.1,
+- react: ^18.3.1,
+- react-dom: ^18.3.1,
+- react-router-dom: ^6.25.1.
