@@ -7,7 +7,7 @@ This web application provides users with an easy and efficient way to calculate 
 Application on purpose has couple of vulnerabilities:
 - being able to provide negative numbers in LoanCalculator.tsx view,
 - credentials being stored in session storage (user id, email, name),
-- usage of simple json-server to make api calls - database is a json file stored inside the project.
+- usage of simple json-server to make api calls - database is a json file stored inside of the project,
 - in order to log in there is a GET call, which gets all the users and then, a function iterates through the users and seeks for a user with email and password, that match the inputs by the user.
 
 
