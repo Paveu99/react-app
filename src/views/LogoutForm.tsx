@@ -8,12 +8,12 @@ export const LogoutForm = () => {
 
     return (<div style={{ textAlign: 'center' }}>
         <h2>Are you sure about that?</h2>
-        <div className='decision'>
+        <form className='decision'>
             <button className='download' onClick={logout}>Yes</button>
             <NavLink to="/">
                 <button className='download3'>No</button>
             </NavLink>
-        </div>
+        </form>
     </div>
     )
 }

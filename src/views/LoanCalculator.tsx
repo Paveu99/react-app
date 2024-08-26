@@ -86,7 +86,7 @@ export const LoanCalculator = () => {
     return (
         <div>
             <h2 style={{ textAlign: "left" }}>Loan Calculator</h2>
-            <div style={{ display: "flex", gap: "10px" }}>
+            <form style={{ display: "flex", gap: "10px" }}>
                 <input
                     type="number"
                     placeholder="Amount"
@@ -114,7 +114,7 @@ export const LoanCalculator = () => {
                 <button onClick={clear}>
                     Clear
                 </button>
-            </div>
+            </form>
             <br />
             <div>
                 {formState.payment !== 0

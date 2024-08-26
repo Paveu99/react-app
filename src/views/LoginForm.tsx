@@ -10,7 +10,7 @@ export const LoginForm = () => {
     const [inputType, setInputType] = useState<string>('password');
     const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-    const { data: users, refetch, error, isPending } = useUsers();
+    const { data: users, refetch, isPending, error } = useUsers();
 
     const showPassword = (e: FormEvent) => {
         e.preventDefault();
@@ -61,8 +61,11 @@ export const LoginForm = () => {
         window.location.replace("http://localhost:5173");
     };
 
+    if (error) return <p>Error while connecting to database! - cannot log in!</p>
+
     return (
         <div>
+            {isPending && <h3>Loading...</h3>}
             <form autoComplete='off' className="form" onSubmit={checkInput}>
                 {submitted && errorMessage && (
                     <p className="checkAnswer" style={{ backgroundColor: 'red' }}>
@@ -98,7 +101,6 @@ export const LoginForm = () => {
                 </p>
                 <button type="submit" className="download2" disabled={isPending}>Log in</button>
             </form>
-            {isPending && <h3>Loading...</h3>}
         </div>
     );
 };
